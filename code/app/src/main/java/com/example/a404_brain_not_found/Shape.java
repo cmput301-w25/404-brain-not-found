@@ -3,6 +3,7 @@ package com.example.a404_brain_not_found;
 public abstract class Shape {
     protected int x;
     protected int y;
+    String color = "Blue";
 
     public int getX() {
         return x;
